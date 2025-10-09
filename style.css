@@ -1,0 +1,57 @@
+/* 打印专用样式 */
+@media print {
+    body {
+        background: white;
+        font-size: 12pt;
+        line-height: 1.5;
+        color: #000;
+    }
+    
+    .container {
+        box-shadow: none;
+        padding: 20px;
+        background: white;
+    }
+    
+    header {
+        border-bottom: none;
+        padding-bottom: 0;
+    }
+    
+    h1 {
+        font-size: 24pt;
+        margin-bottom: 5px;
+    }
+    
+    h2 {
+        font-size: 18pt;
+        margin-top: 15px;
+        border-bottom: 1px solid #000;
+    }
+    
+    .experience-item h3 {
+        font-size: 14pt;
+    }
+    
+    .experience-item .date {
+        font-size: 12pt;
+        color: #555;
+    }
+    
+    .experience-item p {
+        margin-bottom: 4px;
+    }
+    
+    .language-toggle {
+        display: none;
+    }
+    
+    /* 避免分页中断 */
+    .experience-item {
+        page-break-inside: avoid;
+    }
+    
+    section {
+        page-break-before: auto;
+    }
+}

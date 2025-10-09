@@ -1,0 +1,74 @@
+{
+  "en": {
+    "name": "Your Name",
+    "location": "Location: City, Country",
+    "email": "Email: your.email@example.com",
+    "phone": "Phone: +1234567890",
+    "github": "GitHub: github.com/yourusername",
+    "linkedin": "LinkedIn: linkedin.com/in/yourname",
+    "education": [
+      {
+        "institution": "University of Example",
+        "degree": "Bachelor of Computer Science",
+        "date": "2020 - 2024",
+        "description": "Relevant coursework: Data Structures, Algorithms, Web Development"
+      },
+      {
+        "institution": "High School Name",
+        "degree": "High School Diploma",
+        "date": "2016 - 2020",
+        "description": "Graduated with honors, Top 5% of class"
+      }
+    ],
+    "experience": [
+      {
+        "company": "Tech Company Inc.",
+        "position": "Software Developer Intern",
+        "date": "Summer 2023",
+        "description": "Developed web applications using React and Node.js. Collaborated with cross-functional teams to deliver features."
+      },
+      {
+        "company": "Startup XYZ",
+        "position": "Web Developer",
+        "date": "2022 - 2023",
+        "description": "Built responsive websites for clients. Implemented SEO best practices and optimized site performance."
+      }
+    ]
+  },
+  "zh": {
+    "name": "你的名字",
+    "location": "所在地：城市，国家",
+    "email": "邮箱：your.email@example.com",
+    "phone": "电话：+1234567890",
+    "github": "GitHub：github.com/yourusername",
+    "linkedin": "LinkedIn：linkedin.com/in/yourname",
+    "education": [
+      {
+        "institution": "示例大学",
+        "degree": "计算机科学学士",
+        "date": "2020 - 2024",
+        "description": "相关课程：数据结构、算法、Web开发"
+      },
+      {
+        "institution": "高中名称",
+        "degree": "高中文凭",
+        "date": "2016 - 2020",
+        "description": "以优异成绩毕业，班级前5%"
+      }
+    ],
+    "experience": [
+      {
+        "company": "科技公司",
+        "position": "软件开发实习生",
+        "date": "2023年夏季",
+        "description": "使用React和Node.js开发Web应用。与跨职能团队合作交付功能。"
+      },
+      {
+        "company": "初创公司XYZ",
+        "position": "Web开发员",
+        "date": "2022 - 2023",
+        "description": "为客户提供响应式网站。实施SEO最佳实践并优化网站性能。"
+      }
+    ]
+  }
+}

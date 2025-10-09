@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="print.css" media="print">
+</head>
+<body>
+    <header>
+        <h1 id="name">Your Name</h1>
+        <div class="language-toggle">
+            <button id="lang-toggle">中文</button>
+        </div>
+    </header>
+    
+    <div class="container">
+        <section id="contact">
+            <h2>Contact</h2>
+            <ul>
+                <li id="location"></li>
+                <li id="email"></li>
+                <li id="phone"></li>
+                <li id="github"></li>
+                <li id="linkedin"></li>
+            </ul>
+        </section>
+        
+        <section id="education">
+            <h2>Education</h2>
+            <div class="experience-list" id="education-list"></div>
+        </section>
+        
+        <section id="experience">
+            <h2>Work Experience</h2>
+            <div class="experience-list" id="experience-list"></div>
+        </section>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
