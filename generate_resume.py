@@ -5,74 +5,87 @@ def generate_resume():
     # 1. 定义你的简历数据 (只需修改这里)
     resume_data = {
         "en": {
-            "name": "Your Name",
-            "location": "Location: City, Country",
-            "email": "Email: your.email@example.com",
-            "phone": "Phone: +1234567890",
-            "github": "GitHub: github.com/yourusername",
-            "linkedin": "LinkedIn: linkedin.com/in/yourname",
+            "name": "Yang Zhaowei",
+            "location": "Location: Anhui, China",
+            "email": "Email: yangzw_@outlook.com",
+            "phone": "Phone: +86 18101372898",
+            "github": "GitHub: github.com/Yang-Zhaowei",
+            "linkedin": "LinkedIn: None",
             "education": [
                 {
-                    "institution": "University of Example",
-                    "degree": "Bachelor of Computer Science",
-                    "date": "2020 - 2024",
-                    "description": "Relevant coursework: Data Structures, Algorithms, Web Development"
+                    "institution": "Beihang University",
+                    "degree": "Master of Computer Technology",
+                    "date": "2019 - 2022",
+                    "description": "GPA: 3.72/4.0, Outstanding Graduate of Beijing in 2022;Graduation Thesis: Frequency Domain Analysis of Adversarial Signals for Deep Neural Network"
                 },
                 {
-                    "institution": "High School Name",
+                    "institution": "Beijing University of Chemical Technology",
+                    "degree": "Bachelor of Process Equipment and Control Engineering",
+                    "date": "2015 - 2019",
+                    "description": "GPA: 3.21/4.0, University Student Innovation: Vertical Multi-Row Bicycle Parking Device, Graduation Thesis: Research on Construction Methods of Safety Regulations and Case Knowledge Graph"
+                },
+                {
+                    "institution": "No.1 High School of Luan Anhui",
                     "degree": "High School Diploma",
-                    "date": "2016 - 2020",
+                    "date": "2012 - 2015",
                     "description": "Graduated with honors, Top 5% of class"
                 }
             ],
             "experience": [
                 {
-                    "company": "Tech Company Inc.",
+                    "company": "China Computer Federation",
                     "position": "Software Developer Intern",
-                    "date": "Summer 2023",
-                    "description": "Developed web applications using React and Node.js. Collaborated with cross-functional teams to deliver features."
+                    "date": "2021 - 2022",
+                    "description": "Responsible for designing and improving the competition registration system, involved in the evaluation work of the National Olympiad in Informatics."
                 },
                 {
-                    "company": "Startup XYZ",
-                    "position": "Web Developer",
-                    "date": "2022 - 2023",
-                    "description": "Built responsive websites for clients. Implemented SEO best practices and optimized site performance."
+                    "company": "Zhongguang logistics Co., Ltd.",
+                    "position": "Software Developer",
+                    "date": "2023 - Now",
+                    "description": "Responsible for the company's software development and participating in the company's intelligent logistics system transformation."
                 }
             ]
         },
         "zh": {
-            "name": "你的名字",
-            "location": "所在地：城市，国家",
-            "email": "邮箱：your.email@example.com",
-            "phone": "电话：+1234567890",
-            "github": "GitHub：github.com/yourusername",
-            "linkedin": "LinkedIn：linkedin.com/in/yourname",
+            "name": "杨兆维",
+            "location": "所在地：中国安徽省",
+            "email": "邮箱：yangzw_@outlook.com",
+            "phone": "电话：+86 18101372898",
+            "github": "GitHub：github.com/Yang-Zhaowei",
+            # "linkedin": "LinkedIn：linkedin.com/in/yangzhaowei",
+            "linkedin": "LinkedIn：None",
             "education": [
                 {
-                    "institution": "示例大学",
-                    "degree": "计算机科学学士",
-                    "date": "2020 - 2024",
-                    "description": "相关课程：数据结构、算法、Web开发"
+                    "institution": "北京航空航天大学",
+                    "degree": "计算机技术硕士",
+                    "date": "2019 - 2022",
+                    "description": "GPA：3.72/4.0；计算机视觉方向；2022年北京市优秀毕业生；毕业论文：深度神经网络对抗信号的频域分析"
                 },
                 {
-                    "institution": "高中名称",
-                    "degree": "高中文凭",
-                    "date": "2016 - 2020",
-                    "description": "以优异成绩毕业，班级前5%"
+                    "institution": "北京化工大学",
+                    "degree": "过程装备与控制工程学士",
+                    "date": "2015 - 2019",
+                    "description": "GPA: 3.21/4.0；大学生创新：立式多排自行车停放装置；毕业论文：安全法规与案例的知识图谱构建方法研究"
+                },
+                {
+                    "institution": "安徽省六安第一中学",
+                    "degree": "高中",
+                    "date": "2012 - 2015",
+                    "description": "班级前5%"
                 }
             ],
             "experience": [
                 {
-                    "company": "科技公司",
+                    "company": "中国计算机学会",
                     "position": "软件开发实习生",
-                    "date": "2023年夏季",
-                    "description": "使用React和Node.js开发Web应用。与跨职能团队合作交付功能。"
+                    "date": "2020-2022",
+                    "description": "负责竞赛报名系统的设计和改进，参与全国青少年信息学奥赛的评测。"
                 },
                 {
-                    "company": "初创公司XYZ",
-                    "position": "Web开发员",
-                    "date": "2022 - 2023",
-                    "description": "为客户提供响应式网站。实施SEO最佳实践并优化网站性能。"
+                    "company": "中广物流有限公司",
+                    "position": "软件开发",
+                    "date": "2023 - 至今",
+                    "description": "负责公司的软件开发，参与智能物流系统改造。"
                 }
             ]
         }
