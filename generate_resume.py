@@ -78,7 +78,7 @@ def generate_resume():
                 {
                     "company": "中国计算机学会",
                     "position": "软件开发实习生",
-                    "date": "2020-2022",
+                    "date": "2021-2022",
                     "description": "负责竞赛报名系统的设计和改进，参与全国青少年信息学奥赛的评测。"
                 },
                 {
